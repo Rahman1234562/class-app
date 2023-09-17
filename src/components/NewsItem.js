@@ -14,7 +14,7 @@ export class NewsItem extends Component {
     {source}
   </span>
 </h5>
-            <p className="card-text">{description}...</p>
+            <p className="card-text">{description}this is description</p>
             <p className="card-text"><small className="text-muted">By {!author ? "unknown" : author} On {new Date(date).toGMTString()}</small></p>
             <a rel="noreferrer" href={newsUrl} target="_blank" className="btn btn-sm btn-dark">
              see more
